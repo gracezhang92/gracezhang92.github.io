@@ -1,4 +1,5 @@
 $(window).bind("load", function() {
+  $(".main").onepage_scroll();
   setTimeout(function(){
     $("#loading").fadeOut(function(){
       $("#header").show().animate({
@@ -8,5 +9,4 @@ $(window).bind("load", function() {
     });
   }, 2700);      
 });
-
 
