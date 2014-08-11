@@ -125,13 +125,13 @@ a:hover {
 }
 
 #intro header {
-    display: none;
     zoom: 1;
     z-index: 5;
-    position: absolute;
+    position: relative;
     margin-left: 40px;
     top: 50%;
-    margin-top: -100px
+    opacity: -1;
+    margin-bottom: 180px;
 }
 
 #intro header .logo h1 {
@@ -156,8 +156,6 @@ a:hover {
     background: #262324;
     z-index: 1;
     overflow: hidden;
-    margin-top: 70px;
-    opacity: -1;
 }
 
 #intro .view-work {
